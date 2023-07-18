@@ -1404,4 +1404,55 @@
         <tag>redis java</tag>
       </tags>
   </entry>
+  <entry>
+    <title>pic+gitee搭建图床</title>
+    <url>/2023/07/18/picgo-gitee%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/</url>
+    <content><![CDATA[<h1 id="PicGo-gitee搭建图床"><a href="#PicGo-gitee搭建图床" class="headerlink" title="PicGo+gitee搭建图床"></a>PicGo+gitee搭建图床</h1><h2 id="一、Typora的安装"><a href="#一、Typora的安装" class="headerlink" title="一、Typora的安装"></a>一、Typora的安装</h2><p>参考下列这个博客：<a href="https://www.cnblogs.com/xiaohi/p/15907083.html">Typora（morkdown编辑器）的下载和破解 - article - 博客园 (cnblogs.com)</a></p>
+<h2 id="二、下载PicGo"><a href="#二、下载PicGo" class="headerlink" title="二、下载PicGo"></a>二、下载PicGo</h2><p><strong>picgo的下载地址</strong>：<a href="https://molunerfinn.com/PicGo/">PicGo (molunerfinn.com)</a></p>
+<blockquote>
+<p>安装好PicGo，记住安装的目录在哪里，后面会用到！！！！</p>
+</blockquote>
+<h2 id="三、PicGo和gitee的连接"><a href="#三、PicGo和gitee的连接" class="headerlink" title="三、PicGo和gitee的连接"></a>三、PicGo和gitee的连接</h2><p>1、你如果没有gitee账号，可以登录<a href="https://gitee.com/">Gitee - 企业级 DevOps 研发效能平台</a>进行账号的注册</p>
+<blockquote>
+<p>注册账号可以参考这篇文章： <a href="https://zhuanlan.zhihu.com/p/471152317">如何创建Gitee账号 - 知乎 (zhihu.com)</a></p>
+</blockquote>
+<p>2、注册账号之后，创建一个仓库，用来存放图片。</p>
+<p>创建仓库步骤如下：</p>
+<p>1、</p>
+<p><img src="https://raw.githubusercontent.com/zwxl/blog-img/main/image-20230718123315455.png" alt="image-20230718123315455"></p>
+<p>2、</p>
+<p><img src="https://raw.githubusercontent.com/zwxl/blog-img/main/image-20230718123425187.png" alt="image-20230718123425187"></p>
+<p>3、</p>
+<p><img src="https://raw.githubusercontent.com/zwxl/blog-img/main/image-20230718123518935.png" alt="image-20230718123518935"></p>
+<p>4、点击新建文件夹</p>
+<p><img src="https://raw.githubusercontent.com/zwxl/blog-img/main/image-20230718123605466.png" alt="image-20230718123605466"></p>
+<p>5、打开PicGo软件</p>
+<p>在插件设置哪里搜索gitee-uploader安装</p>
+<p><img src="https://raw.githubusercontent.com/zwxl/blog-img/main/image-20230718123651364.png" alt="image-20230718123651364"></p>
+<p>6、</p>
+<p><img src="https://raw.githubusercontent.com/zwxl/blog-img/main/image-20230718123747175.png" alt="image-20230718123747175"></p>
+<p>7、</p>
+<p><img src="https://raw.githubusercontent.com/zwxl/blog-img/main/image-20230718123903669.png" alt="image-20230718123903669"></p>
+<p>8、点击生成新令牌</p>
+<p><img src="https://raw.githubusercontent.com/zwxl/blog-img/main/image-20230718123956182.png" alt="image-20230718123956182"></p>
+<p>9、把获取的token和一些信息填好</p>
+<p><img src="https://raw.githubusercontent.com/zwxl/blog-img/main/image-20230718124041486.png" alt="image-20230718124041486"></p>
+<p>10、测试</p>
+<p><img src="https://raw.githubusercontent.com/zwxl/blog-img/main/image-20230718124126850.png" alt="image-20230718124126850"></p>
+<p>打开偏好设置：</p>
+<p><img src="https://raw.githubusercontent.com/zwxl/blog-img/main/image-20230718124203552.png" alt="image-20230718124203552"></p>
+<p><img src="https://raw.githubusercontent.com/zwxl/blog-img/main/image-20230718124247250.png" alt="image-20230718124247250"></p>
+<p>成功界面：</p>
+<p><img src="https://raw.githubusercontent.com/zwxl/blog-img/main/image-20230718124319548.png" alt="image-20230718124319548"></p>
+<p>通过查询仓库，确实成功了</p>
+<p><img src="https://raw.githubusercontent.com/zwxl/blog-img/main/image-20230718124426485.png" alt="image-20230718124426485"></p>
+<p>通过上述的配置，就可以搭建自己的图床了。</p>
+]]></content>
+      <categories>
+        <category>PicGo gitee</category>
+      </categories>
+      <tags>
+        <tag>服务器</tag>
+      </tags>
+  </entry>
 </search>
